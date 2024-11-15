@@ -1,0 +1,20 @@
+{
+  "name": "selenium-agent",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "chromedriver": "^130.0.2",
+    "experts": "^1.6.1",
+    "jsdom": "^25.0.1",
+    "selenium-webdriver": "^4.26.0",
+    "turndown": "^7.2.0"
+  }
+}
