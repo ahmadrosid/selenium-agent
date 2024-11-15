@@ -10,7 +10,7 @@ Selenium Agent is a research assistant that can search the web and extract infor
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/selenium-agent.git
+   git clone https://github.com/ahmadrosid/selenium-agent.git
    cd selenium-agent
    ```
 2. Install dependencies:
@@ -21,6 +21,10 @@ Selenium Agent is a research assistant that can search the web and extract infor
 ## Usage
 
 Please set the `OPENAI_API_KEY` environment variable with your OpenAI API key.
+
+```bash
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+```
 
 To run the Selenium Agent, execute:
 ```bash
