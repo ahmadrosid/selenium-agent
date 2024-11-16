@@ -17,8 +17,9 @@ async function main() {
     const question = await new Promise((resolve) => {
       process.stdin.once('data', (data) => resolve(data.toString().trim()));
     });
-    if (question === 'exit') break;
-    const response = await assistant.ask(question, thread.id, {});
+    if (question.trim() === 'exit') break;
+    const currentQuestion = !result ? `Current Date: ${new Date().toLocaleString()}\n${question}` : question;
+    const response = await assistant.ask(currentQuestion, thread.id, {});
     result = response;
   }
 }
